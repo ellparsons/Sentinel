@@ -22,7 +22,7 @@ describe("Creating file",function(done) {
                         testCriteria = testArray[i]
                     }
                 }
-                assert.equal(testCriteria, testVariable);
+                assert.equal(testVariable, testCriteria);
             done();
         })
     });

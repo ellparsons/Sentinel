@@ -4,9 +4,9 @@
   "description": "testing pdftojson lib",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "nyc mocha"
   },
-  "author": "josh and luke",
+  "author": "Sentinel Team",
   "license": "ISC",
   "dependencies": {
     "mocha": "^6.0.2",
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/ellparsons/Sentinel#readme",
   "devDependencies": {
-    "chai": "^4.2.0"
+    "chai": "^4.2.0",
+    "nyc": "^13.3.0"
   }
 }
